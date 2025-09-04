@@ -1,0 +1,501 @@
+Shipment_ID,Origin,Destination,Distance_km,Transport_Mode,Fuel_Type,Load_Utilization_%,Fuel_Consumed_L,CO2_Emissions_kg,Shipment_Weight_kg,Delivery_Time_hr,Cost_USD
+S0001,Kolkata,Jaipur,447,Truck,Diesel,72,113.28,303.59,8138,10.52,444.28
+S0002,Mumbai,Pune,1121,Electric Van,Battery,66,0.0,0.0,10967,27.9,767.08
+S0003,Guwahati,Mumbai,1284,Electric Truck,Battery,96,0.0,0.0,8489,23.46,804.31
+S0004,Delhi,Hyderabad,394,Electric Truck,Battery,93,0.0,0.0,10402,10.61,451.12
+S0005,Delhi,Bangalore,242,Rail,Diesel,90,15.02,40.25,9929,5.7,284.88
+S0006,Ahmedabad,Bangalore,1609,Air,Jet Fuel,77,977.64,2444.1,14403,5.79,1359.44
+S0007,Chennai,Hyderabad,224,Air,Jet Fuel,60,142.75,356.88,4134,2.04,248.1
+S0008,Bangalore,Hyderabad,1573,Truck,Diesel,70,398.49,1067.95,5415,30.12,1241.94
+S0009,Pune,Guwahati,1079,Electric Van,Battery,75,0.0,0.0,11311,25.06,681.62
+S0010,Chennai,Kolkata,153,Electric Van,Battery,73,0.0,0.0,13500,6.17,296.81
+S0011,Mumbai,Lucknow,1668,Electric Van,Battery,72,0.0,0.0,8539,37.75,1022.88
+S0012,Ahmedabad,Pune,621,Electric Truck,Battery,94,0.0,0.0,14941,14.49,473.55
+S0013,Lucknow,Mumbai,1481,Air,Jet Fuel,61,903.96,2259.9,14425,5.25,1242.75
+S0014,Delhi,Jaipur,1892,Rail,Electric,89,147.3,14.73,10051,26.21,1192.15
+S0015,Kolkata,Guwahati,1988,Air,Jet Fuel,78,1178.98,2947.45,4524,8.55,1827.45
+S0016,Guwahati,Mumbai,1415,Air,Jet Fuel,88,859.13,2147.82,8466,5.4,1222.71
+S0017,Chennai,Kolkata,1547,Rail,Electric,77,126.09,12.61,5588,20.79,950.74
+S0018,Ahmedabad,Mumbai,1885,Rail,Diesel,81,149.9,401.73,7952,25.05,1117.27
+S0019,Pune,Chennai,1690,Truck,CNG,90,419.35,838.7,7170,32.73,1140.33
+S0020,Hyderabad,Ahmedabad,1234,Air,Jet Fuel,63,740.91,1852.27,12119,5.23,1068.17
+S0021,Guwahati,Delhi,834,Rail,Diesel,93,61.82,165.68,6240,11.71,596.16
+S0022,Ahmedabad,Chennai,1040,Rail,Diesel,85,85.27,228.52,12582,14.21,763.65
+S0023,Ahmedabad,Mumbai,1955,Electric Van,Battery,65,0.0,0.0,11087,45.07,1261.92
+S0024,Hyderabad,Bangalore,454,Air,Jet Fuel,97,278.19,695.48,13740,3.3,422.11
+S0025,Kolkata,Lucknow,1733,Electric Truck,Battery,89,0.0,0.0,9545,30.92,1131.26
+S0026,Delhi,Bangalore,837,Electric Truck,Battery,80,0.0,0.0,5677,15.59,662.64
+S0027,Jaipur,Chennai,409,Electric Truck,Battery,90,0.0,0.0,8900,11.53,279.89
+S0028,Pune,Guwahati,1995,Air,Jet Fuel,98,1207.09,3017.72,9740,8.39,1701.95
+S0029,Mumbai,Chennai,1967,Air,Jet Fuel,69,1181.7,2954.25,14312,8.55,1709.28
+S0030,Bangalore,Hyderabad,1843,Truck,Diesel,90,455.76,1221.44,8974,35.46,1374.35
+S0031,Ahmedabad,Mumbai,1013,Electric Van,Battery,72,0.0,0.0,3927,23.88,568.7
+S0032,Guwahati,Hyderabad,668,Rail,Diesel,60,51.54,138.13,11139,12.03,465.46
+S0033,Ahmedabad,Pune,1270,Truck,CNG,73,316.94,633.88,14101,23.95,961.66
+S0034,Pune,Hyderabad,717,Truck,Diesel,98,180.0,482.4,4050,14.86,642.8
+S0035,Lucknow,Delhi,1165,Truck,CNG,60,285.26,570.52,14316,22.59,782.81
+S0036,Ahmedabad,Guwahati,1823,Rail,Diesel,74,147.11,394.25,7198,26.3,1110.35
+S0037,Pune,Chennai,1952,Truck,CNG,72,480.79,961.58,5377,37.36,1243.12
+S0038,Hyderabad,Kolkata,603,Electric Truck,Battery,91,0.0,0.0,5074,14.11,524.57
+S0039,Chennai,Pune,1845,Rail,Diesel,90,142.9,382.97,11567,25.48,1279.71
+S0040,Kolkata,Lucknow,454,Electric Truck,Battery,78,0.0,0.0,4946,9.33,511.39
+S0041,Pune,Hyderabad,1371,Electric Truck,Battery,85,0.0,0.0,14477,27.84,883.28
+S0042,Pune,Mumbai,619,Air,Jet Fuel,99,387.69,969.23,13492,2.19,610.95
+S0043,Pune,Bangalore,156,Air,Jet Fuel,61,110.92,277.3,4072,2.21,210.2
+S0044,Lucknow,Guwahati,145,Electric Truck,Battery,97,0.0,0.0,11613,3.97,142.48
+S0045,Lucknow,Jaipur,326,Electric Van,Battery,87,0.0,0.0,7374,8.61,231.73
+S0046,Jaipur,Hyderabad,1168,Air,Jet Fuel,82,719.11,1797.78,13893,5.03,1056.12
+S0047,Chennai,Kolkata,1786,Electric Van,Battery,97,0.0,0.0,12299,36.88,1178.17
+S0048,Ahmedabad,Kolkata,537,Air,Jet Fuel,77,336.55,841.38,10533,2.07,697.4
+S0049,Pune,Ahmedabad,491,Truck,Diesel,60,126.99,340.33,9425,11.8,541.73
+S0050,Lucknow,Bangalore,213,Air,Jet Fuel,91,137.32,343.3,10294,2.57,363.99
+S0051,Ahmedabad,Guwahati,1347,Electric Truck,Battery,95,0.0,0.0,11363,24.18,856.46
+S0052,Bangalore,Jaipur,1719,Truck,Diesel,72,422.07,1131.15,3272,29.79,1239.37
+S0053,Kolkata,Lucknow,213,Electric Van,Battery,97,0.0,0.0,12891,9.7,344.5
+S0054,Ahmedabad,Delhi,711,Air,Jet Fuel,76,407.88,1019.7,13686,4.14,739.71
+S0055,Jaipur,Pune,694,Air,Jet Fuel,88,436.08,1090.2,9002,3.57,719.14
+S0056,Kolkata,Lucknow,1451,Electric Van,Battery,100,0.0,0.0,6567,31.88,793.24
+S0057,Kolkata,Chennai,1517,Truck,CNG,76,386.07,772.14,14949,29.95,1110.81
+S0058,Hyderabad,Jaipur,1750,Truck,Diesel,68,430.77,1154.46,4302,33.67,1326.04
+S0059,Bangalore,Pune,1772,Truck,Diesel,78,438.01,1173.87,5075,32.79,1176.37
+S0060,Bangalore,Chennai,716,Electric Van,Battery,74,0.0,0.0,3210,18.41,433.07
+S0061,Guwahati,Lucknow,1111,Truck,CNG,92,272.75,545.5,13749,20.65,731.73
+S0062,Jaipur,Bangalore,1202,Electric Van,Battery,73,0.0,0.0,4025,25.36,729.4
+S0063,Pune,Lucknow,342,Air,Jet Fuel,72,215.0,537.5,13591,3.0,372.4
+S0064,Delhi,Jaipur,1250,Rail,Electric,87,101.02,10.1,7659,19.36,733.71
+S0065,Kolkata,Ahmedabad,686,Rail,Electric,82,57.87,5.79,6634,10.69,522.37
+S0066,Hyderabad,Mumbai,1451,Electric Van,Battery,91,0.0,0.0,13370,32.73,884.14
+S0067,Jaipur,Hyderabad,1728,Electric Truck,Battery,71,0.0,0.0,12215,30.36,1011.52
+S0068,Chennai,Jaipur,1363,Rail,Diesel,94,110.72,296.73,5729,19.66,925.35
+S0069,Bangalore,Chennai,1238,Electric Truck,Battery,72,0.0,0.0,14841,24.27,696.85
+S0070,Guwahati,Hyderabad,966,Electric Van,Battery,74,0.0,0.0,4113,23.49,682.69
+S0071,Delhi,Chennai,253,Truck,CNG,67,64.18,128.36,8639,6.25,306.6
+S0072,Ahmedabad,Bangalore,1694,Rail,Electric,83,136.75,13.68,12148,24.2,989.26
+S0073,Lucknow,Guwahati,1266,Rail,Diesel,61,103.89,278.43,9431,18.61,929.98
+S0074,Guwahati,Chennai,915,Rail,Diesel,73,73.37,196.63,8961,15.43,561.35
+S0075,Guwahati,Delhi,659,Rail,Diesel,62,51.42,137.81,5300,11.11,609.38
+S0076,Lucknow,Hyderabad,889,Truck,CNG,93,219.88,439.76,14421,18.43,670.35
+S0077,Jaipur,Chennai,566,Electric Van,Battery,63,0.0,0.0,8120,14.34,475.03
+S0078,Chennai,Guwahati,732,Rail,Diesel,86,59.12,158.44,6709,10.26,466.2
+S0079,Ahmedabad,Lucknow,1405,Air,Jet Fuel,60,856.99,2142.47,8438,6.57,1391.94
+S0080,Kolkata,Pune,538,Electric Truck,Battery,72,0.0,0.0,7586,13.75,411.57
+S0081,Bangalore,Chennai,1167,Electric Van,Battery,67,0.0,0.0,12470,28.14,665.74
+S0082,Chennai,Ahmedabad,1464,Truck,CNG,71,360.23,720.46,10660,26.23,930.02
+S0083,Lucknow,Chennai,927,Rail,Electric,65,76.7,7.67,4015,15.51,643.03
+S0084,Guwahati,Ahmedabad,1697,Electric Van,Battery,95,0.0,0.0,3308,39.61,1012.56
+S0085,Ahmedabad,Chennai,1631,Rail,Diesel,85,135.42,362.93,3970,23.23,1154.19
+S0086,Pune,Delhi,1310,Electric Truck,Battery,91,0.0,0.0,12161,22.91,879.78
+S0087,Bangalore,Kolkata,1459,Electric Van,Battery,77,0.0,0.0,4158,30.9,969.98
+S0088,Delhi,Bangalore,1115,Rail,Diesel,76,90.8,243.34,7091,15.23,677.84
+S0089,Guwahati,Mumbai,1202,Electric Van,Battery,80,0.0,0.0,8651,25.88,772.11
+S0090,Bangalore,Guwahati,173,Truck,Diesel,82,41.04,109.99,6364,5.95,310.13
+S0091,Kolkata,Bangalore,157,Electric Truck,Battery,62,0.0,0.0,13756,4.81,188.04
+S0092,Hyderabad,Guwahati,708,Electric Truck,Battery,98,0.0,0.0,7063,14.25,435.87
+S0093,Guwahati,Pune,285,Truck,Diesel,71,76.1,203.95,9692,7.68,379.4
+S0094,Kolkata,Pune,816,Truck,Diesel,82,200.16,536.43,12284,17.85,649.1
+S0095,Hyderabad,Guwahati,872,Rail,Diesel,80,65.88,176.56,8578,13.15,705.52
+S0096,Hyderabad,Jaipur,1902,Rail,Electric,90,157.02,15.7,6195,25.95,1004.69
+S0097,Guwahati,Pune,1906,Electric Truck,Battery,87,0.0,0.0,11750,33.14,1037.86
+S0098,Lucknow,Guwahati,821,Air,Jet Fuel,70,499.41,1248.53,7022,3.53,765.77
+S0099,Ahmedabad,Hyderabad,723,Electric Van,Battery,61,0.0,0.0,12026,19.4,496.85
+S0100,Mumbai,Guwahati,1301,Rail,Diesel,63,102.8,275.5,5915,19.12,938.1
+S0101,Guwahati,Delhi,834,Air,Jet Fuel,64,483.59,1208.97,11081,3.95,929.46
+S0102,Jaipur,Kolkata,655,Electric Truck,Battery,65,0.0,0.0,3811,15.36,469.89
+S0103,Delhi,Hyderabad,501,Air,Jet Fuel,74,285.38,713.45,13040,2.05,669.18
+S0104,Chennai,Jaipur,221,Rail,Electric,100,22.26,2.23,9919,4.83,364.5
+S0105,Delhi,Pune,972,Electric Van,Battery,80,0.0,0.0,6192,23.11,781.88
+S0106,Kolkata,Delhi,423,Truck,Diesel,69,102.57,274.89,4275,11.96,321.2
+S0107,Guwahati,Delhi,1954,Air,Jet Fuel,80,1167.13,2917.83,4210,7.77,1725.67
+S0108,Guwahati,Hyderabad,415,Electric Truck,Battery,75,0.0,0.0,8836,11.72,272.06
+S0109,Guwahati,Kolkata,1125,Air,Jet Fuel,81,660.73,1651.83,11003,4.08,1117.6
+S0110,Kolkata,Hyderabad,1217,Electric Truck,Battery,68,0.0,0.0,8274,24.85,906.75
+S0111,Pune,Kolkata,372,Electric Truck,Battery,87,0.0,0.0,11060,8.41,428.84
+S0112,Chennai,Delhi,1810,Truck,CNG,61,451.39,902.78,14311,32.25,1228.58
+S0113,Chennai,Hyderabad,635,Truck,Diesel,98,148.82,398.84,7154,12.43,603.24
+S0114,Kolkata,Delhi,1595,Electric Truck,Battery,79,0.0,0.0,9549,29.9,1086.6
+S0115,Guwahati,Lucknow,304,Electric Van,Battery,100,0.0,0.0,4468,7.99,227.6
+S0116,Pune,Lucknow,1731,Rail,Electric,85,137.33,13.73,14935,23.28,1130.37
+S0117,Pune,Jaipur,1409,Air,Jet Fuel,87,864.57,2161.43,5143,5.16,1243.28
+S0118,Pune,Delhi,129,Rail,Diesel,76,6.84,18.33,5927,3.1,204.46
+S0119,Lucknow,Delhi,458,Rail,Diesel,100,36.37,97.47,7987,9.29,397.48
+S0120,Mumbai,Chennai,1965,Rail,Diesel,99,155.22,415.99,9708,26.84,1209.82
+S0121,Delhi,Bangalore,1003,Electric Truck,Battery,90,0.0,0.0,7878,19.92,696.97
+S0122,Delhi,Bangalore,1981,Electric Van,Battery,94,0.0,0.0,6650,41.61,1064.36
+S0123,Hyderabad,Bangalore,1242,Air,Jet Fuel,90,760.14,1900.35,5335,5.86,1166.47
+S0124,Hyderabad,Kolkata,364,Truck,Diesel,78,94.71,253.82,11692,9.42,315.87
+S0125,Delhi,Ahmedabad,1939,Air,Jet Fuel,98,1160.95,2902.38,13572,7.0,1785.3
+S0126,Chennai,Kolkata,106,Air,Jet Fuel,69,47.65,119.12,8063,0.55,195.86
+S0127,Jaipur,Lucknow,1445,Electric Truck,Battery,85,0.0,0.0,8889,26.3,904.0
+S0128,Kolkata,Hyderabad,1858,Electric Van,Battery,73,0.0,0.0,9726,38.21,1071.16
+S0129,Mumbai,Bangalore,1438,Truck,Diesel,61,352.34,944.27,5759,25.01,1203.83
+S0130,Chennai,Mumbai,235,Electric Truck,Battery,65,0.0,0.0,6156,7.92,216.54
+S0131,Chennai,Bangalore,1574,Air,Jet Fuel,79,936.76,2341.9,4410,5.74,1511.45
+S0132,Mumbai,Hyderabad,1354,Rail,Electric,70,112.48,11.25,11293,19.79,964.03
+S0133,Kolkata,Jaipur,1055,Electric Van,Battery,99,0.0,0.0,13979,24.78,775.75
+S0134,Delhi,Chennai,1391,Electric Van,Battery,97,0.0,0.0,7427,30.44,994.63
+S0135,Mumbai,Jaipur,1023,Rail,Electric,72,86.63,8.66,6348,16.38,806.72
+S0136,Kolkata,Guwahati,1533,Air,Jet Fuel,81,918.32,2295.8,13537,6.73,1422.72
+S0137,Delhi,Kolkata,1700,Air,Jet Fuel,76,1030.11,2575.27,6560,6.18,1628.07
+S0138,Guwahati,Jaipur,1893,Air,Jet Fuel,69,1146.97,2867.43,6490,7.71,1719.2
+S0139,Jaipur,Lucknow,1381,Air,Jet Fuel,77,834.14,2085.35,13154,5.59,1368.72
+S0140,Ahmedabad,Delhi,1084,Rail,Electric,61,89.46,8.95,6696,16.47,741.92
+S0141,Ahmedabad,Lucknow,1919,Electric Truck,Battery,96,0.0,0.0,9663,34.42,1242.85
+S0142,Ahmedabad,Lucknow,1377,Electric Van,Battery,62,0.0,0.0,9629,28.9,901.23
+S0143,Lucknow,Kolkata,650,Air,Jet Fuel,96,404.84,1012.1,9652,3.68,782.66
+S0144,Ahmedabad,Guwahati,1955,Air,Jet Fuel,94,1191.88,2979.7,7113,6.76,1822.94
+S0145,Hyderabad,Chennai,773,Electric Van,Battery,98,0.0,0.0,3135,21.37,521.15
+S0146,Hyderabad,Delhi,714,Truck,CNG,65,172.23,344.46,3706,16.33,713.04
+S0147,Jaipur,Delhi,853,Truck,Diesel,65,209.32,560.98,4972,18.17,777.91
+S0148,Hyderabad,Ahmedabad,661,Electric Truck,Battery,98,0.0,0.0,8649,15.15,552.39
+S0149,Mumbai,Pune,872,Rail,Electric,65,70.73,7.07,11676,14.53,606.21
+S0150,Guwahati,Ahmedabad,584,Electric Truck,Battery,70,0.0,0.0,10711,14.28,504.36
+S0151,Ahmedabad,Bangalore,1091,Truck,CNG,95,270.31,540.62,5589,23.15,739.61
+S0152,Kolkata,Bangalore,1258,Electric Van,Battery,98,0.0,0.0,13838,29.17,825.21
+S0153,Kolkata,Delhi,570,Electric Van,Battery,72,0.0,0.0,3948,16.0,335.03
+S0154,Lucknow,Chennai,950,Air,Jet Fuel,63,587.13,1467.83,14555,4.89,839.57
+S0155,Chennai,Mumbai,873,Rail,Electric,70,67.98,6.8,4815,13.85,569.81
+S0156,Chennai,Lucknow,645,Rail,Electric,79,55.37,5.54,3155,10.04,569.0
+S0157,Mumbai,Hyderabad,1719,Air,Jet Fuel,88,1032.08,2580.2,9978,7.59,1427.02
+S0158,Lucknow,Bangalore,808,Electric Truck,Battery,89,0.0,0.0,7155,14.64,555.49
+S0159,Guwahati,Ahmedabad,1401,Air,Jet Fuel,74,829.02,2072.55,11880,5.23,1392.97
+S0160,Chennai,Ahmedabad,214,Electric Truck,Battery,99,0.0,0.0,11185,6.16,270.31
+S0161,Guwahati,Delhi,1486,Air,Jet Fuel,81,909.33,2273.33,4940,6.86,1399.29
+S0162,Jaipur,Lucknow,374,Electric Truck,Battery,68,0.0,0.0,4394,10.65,440.44
+S0163,Kolkata,Guwahati,1137,Rail,Electric,67,93.44,9.34,9945,16.57,766.28
+S0164,Pune,Chennai,1985,Truck,CNG,61,492.37,984.74,13093,34.62,1355.07
+S0165,Jaipur,Kolkata,631,Air,Jet Fuel,85,363.84,909.6,7329,3.65,660.87
+S0166,Mumbai,Jaipur,476,Air,Jet Fuel,64,280.56,701.4,5726,3.13,594.72
+S0167,Jaipur,Bangalore,987,Truck,CNG,92,244.7,489.4,7418,20.18,646.89
+S0168,Guwahati,Kolkata,617,Truck,Diesel,99,145.57,390.13,9510,12.37,653.67
+S0169,Mumbai,Hyderabad,1878,Electric Van,Battery,67,0.0,0.0,9789,41.73,996.64
+S0170,Delhi,Pune,618,Rail,Electric,92,44.92,4.49,14106,8.94,418.81
+S0171,Bangalore,Ahmedabad,1258,Electric Truck,Battery,78,0.0,0.0,5088,23.64,896.3
+S0172,Chennai,Bangalore,173,Rail,Electric,99,14.02,1.4,4693,4.95,234.86
+S0173,Pune,Hyderabad,1911,Air,Jet Fuel,85,1138.16,2845.4,10829,7.74,1698.51
+S0174,Ahmedabad,Hyderabad,159,Rail,Diesel,91,12.78,34.25,10416,3.2,146.04
+S0175,Pune,Ahmedabad,1063,Electric Truck,Battery,87,0.0,0.0,4528,20.01,697.35
+S0176,Jaipur,Bangalore,739,Air,Jet Fuel,95,426.14,1065.35,9993,2.64,653.42
+S0177,Lucknow,Delhi,1222,Electric Van,Battery,60,0.0,0.0,8161,26.34,870.71
+S0178,Bangalore,Pune,775,Electric Van,Battery,79,0.0,0.0,10626,18.05,571.25
+S0179,Lucknow,Pune,1874,Electric Van,Battery,79,0.0,0.0,13100,42.96,1108.16
+S0180,Kolkata,Bangalore,193,Electric Van,Battery,100,0.0,0.0,7067,9.39,198.83
+S0181,Lucknow,Ahmedabad,364,Electric Van,Battery,82,0.0,0.0,10703,9.72,341.51
+S0182,Kolkata,Pune,936,Rail,Diesel,73,71.62,191.94,11622,14.2,762.91
+S0183,Chennai,Lucknow,754,Electric Van,Battery,95,0.0,0.0,10460,17.11,648.88
+S0184,Jaipur,Pune,1453,Electric Van,Battery,79,0.0,0.0,12665,30.61,1000.51
+S0185,Ahmedabad,Chennai,1346,Rail,Diesel,67,105.57,282.93,12065,18.05,932.26
+S0186,Delhi,Mumbai,1083,Truck,CNG,98,272.68,545.36,8411,20.43,919.05
+S0187,Jaipur,Bangalore,136,Air,Jet Fuel,70,68.13,170.32,11366,0.96,379.77
+S0188,Pune,Hyderabad,1260,Air,Jet Fuel,88,737.53,1843.82,12143,5.0,1052.95
+S0189,Bangalore,Ahmedabad,774,Electric Van,Battery,87,0.0,0.0,5918,21.37,495.14
+S0190,Jaipur,Chennai,1932,Electric Van,Battery,64,0.0,0.0,14791,43.9,1242.8
+S0191,Ahmedabad,Mumbai,883,Electric Van,Battery,90,0.0,0.0,4987,22.59,575.68
+S0192,Bangalore,Hyderabad,614,Electric Truck,Battery,61,0.0,0.0,12553,12.38,467.94
+S0193,Lucknow,Chennai,879,Electric Truck,Battery,90,0.0,0.0,14591,18.74,659.77
+S0194,Ahmedabad,Hyderabad,381,Air,Jet Fuel,61,231.5,578.75,3077,2.44,387.19
+S0195,Jaipur,Lucknow,1581,Rail,Diesel,86,127.76,342.4,13879,23.71,1106.36
+S0196,Kolkata,Guwahati,902,Truck,CNG,99,222.21,444.42,12089,16.85,660.69
+S0197,Pune,Mumbai,541,Electric Van,Battery,69,0.0,0.0,8007,15.24,559.93
+S0198,Hyderabad,Mumbai,1581,Electric Truck,Battery,82,0.0,0.0,11211,30.12,975.27
+S0199,Pune,Hyderabad,1767,Air,Jet Fuel,83,1053.11,2632.77,8447,6.21,1514.12
+S0200,Pune,Lucknow,495,Rail,Electric,64,35.17,3.52,7418,9.86,427.14
+S0201,Hyderabad,Ahmedabad,1289,Truck,Diesel,88,325.38,872.02,9442,22.77,915.63
+S0202,Hyderabad,Pune,1949,Electric Van,Battery,93,0.0,0.0,3282,44.97,1244.36
+S0203,Delhi,Bangalore,629,Electric Van,Battery,98,0.0,0.0,12742,15.95,613.2
+S0204,Mumbai,Jaipur,1520,Electric Truck,Battery,93,0.0,0.0,7639,30.16,991.01
+S0205,Chennai,Jaipur,1580,Electric Truck,Battery,66,0.0,0.0,7425,29.87,926.87
+S0206,Bangalore,Hyderabad,787,Rail,Diesel,70,66.17,177.34,9090,10.85,711.64
+S0207,Hyderabad,Ahmedabad,1237,Electric Truck,Battery,75,0.0,0.0,7205,24.71,722.99
+S0208,Jaipur,Mumbai,635,Truck,CNG,91,149.41,298.82,4230,11.74,628.73
+S0209,Pune,Delhi,374,Rail,Diesel,73,26.43,70.83,6260,7.85,341.78
+S0210,Guwahati,Kolkata,1559,Truck,CNG,71,380.84,761.68,14695,27.67,1019.5
+S0211,Hyderabad,Ahmedabad,837,Electric Van,Battery,61,0.0,0.0,13668,18.44,477.2
+S0212,Bangalore,Jaipur,1034,Electric Van,Battery,77,0.0,0.0,6454,22.19,704.55
+S0213,Jaipur,Chennai,1729,Electric Truck,Battery,69,0.0,0.0,3741,29.9,1092.71
+S0214,Jaipur,Guwahati,705,Electric Truck,Battery,82,0.0,0.0,9714,15.64,483.95
+S0215,Pune,Bangalore,1929,Electric Truck,Battery,76,0.0,0.0,7853,33.22,1077.69
+S0216,Ahmedabad,Kolkata,447,Electric Van,Battery,73,0.0,0.0,9158,13.89,318.39
+S0217,Mumbai,Bangalore,493,Air,Jet Fuel,78,302.47,756.18,9431,3.32,492.4
+S0218,Ahmedabad,Chennai,1731,Rail,Diesel,78,143.33,384.12,5676,23.26,1032.26
+S0219,Pune,Jaipur,1487,Truck,Diesel,85,375.15,1005.4,14616,28.75,1089.34
+S0220,Ahmedabad,Chennai,1637,Truck,Diesel,72,402.15,1077.76,11205,28.86,1165.82
+S0221,Delhi,Kolkata,1865,Air,Jet Fuel,70,1108.05,2770.12,9040,6.55,1642.88
+S0222,Chennai,Delhi,636,Rail,Electric,93,49.41,4.94,7229,10.92,390.56
+S0223,Chennai,Ahmedabad,281,Truck,CNG,64,71.21,142.42,8059,8.12,289.03
+S0224,Ahmedabad,Pune,1881,Truck,CNG,64,478.94,957.88,7957,34.75,1414.79
+S0225,Pune,Bangalore,436,Electric Truck,Battery,81,0.0,0.0,5708,9.98,437.45
+S0226,Kolkata,Lucknow,1940,Air,Jet Fuel,79,1146.35,2865.88,14608,6.6,1698.19
+S0227,Pune,Lucknow,112,Electric Truck,Battery,98,0.0,0.0,4567,4.21,333.64
+S0228,Guwahati,Delhi,1966,Rail,Diesel,78,154.79,414.84,14767,28.01,1144.61
+S0229,Pune,Kolkata,1549,Rail,Diesel,87,122.53,328.38,3440,23.35,1106.88
+S0230,Mumbai,Bangalore,1586,Electric Truck,Battery,99,0.0,0.0,6502,27.59,1057.49
+S0231,Bangalore,Lucknow,1526,Rail,Diesel,89,118.76,318.28,3012,22.1,934.87
+S0232,Bangalore,Ahmedabad,233,Electric Truck,Battery,87,0.0,0.0,5895,8.39,357.68
+S0233,Pune,Guwahati,1730,Electric Truck,Battery,97,0.0,0.0,6191,30.16,1158.06
+S0234,Guwahati,Kolkata,634,Electric Van,Battery,82,0.0,0.0,4554,15.61,514.19
+S0235,Ahmedabad,Jaipur,949,Air,Jet Fuel,99,567.05,1417.62,5349,4.87,839.93
+S0236,Mumbai,Jaipur,1464,Rail,Electric,94,120.03,12.0,12966,22.23,956.03
+S0237,Guwahati,Mumbai,1000,Air,Jet Fuel,79,617.8,1544.5,8764,4.79,1066.4
+S0238,Mumbai,Bangalore,239,Rail,Diesel,63,22.94,61.48,6711,6.66,315.44
+S0239,Jaipur,Mumbai,340,Air,Jet Fuel,63,218.92,547.3,3264,2.19,471.94
+S0240,Kolkata,Delhi,1221,Electric Van,Battery,86,0.0,0.0,10448,26.88,671.79
+S0241,Chennai,Bangalore,1756,Electric Van,Battery,67,0.0,0.0,9107,36.22,990.25
+S0242,Guwahati,Bangalore,710,Electric Truck,Battery,60,0.0,0.0,8301,13.58,632.96
+S0243,Jaipur,Delhi,305,Air,Jet Fuel,85,201.66,504.15,14261,1.26,414.53
+S0244,Chennai,Mumbai,172,Air,Jet Fuel,75,96.66,241.65,3959,2.55,386.8
+S0245,Lucknow,Pune,934,Air,Jet Fuel,63,542.25,1355.62,14328,4.89,871.98
+S0246,Ahmedabad,Guwahati,386,Electric Truck,Battery,84,0.0,0.0,6431,9.16,316.01
+S0247,Kolkata,Bangalore,1647,Rail,Electric,96,130.74,13.07,4973,22.37,1120.06
+S0248,Chennai,Bangalore,878,Electric Van,Battery,80,0.0,0.0,5086,19.97,630.77
+S0249,Kolkata,Ahmedabad,1574,Electric Van,Battery,86,0.0,0.0,4803,37.1,997.95
+S0250,Bangalore,Kolkata,859,Electric Van,Battery,82,0.0,0.0,12769,23.16,671.62
+S0251,Mumbai,Delhi,888,Rail,Electric,76,72.23,7.22,3519,14.37,533.16
+S0252,Ahmedabad,Pune,1885,Electric Truck,Battery,73,0.0,0.0,12487,35.92,1091.84
+S0253,Chennai,Ahmedabad,1679,Truck,Diesel,67,429.13,1150.07,9598,29.77,1152.99
+S0254,Kolkata,Hyderabad,408,Air,Jet Fuel,80,234.19,585.48,11195,2.41,614.52
+S0255,Kolkata,Jaipur,501,Electric Van,Battery,70,0.0,0.0,8186,14.34,401.3
+S0256,Bangalore,Delhi,122,Electric Van,Battery,80,0.0,0.0,12542,4.79,218.66
+S0257,Jaipur,Pune,146,Electric Van,Battery,88,0.0,0.0,8785,4.56,313.95
+S0258,Lucknow,Bangalore,1751,Truck,CNG,68,447.45,894.9,11956,33.27,1289.31
+S0259,Guwahati,Ahmedabad,1605,Electric Van,Battery,77,0.0,0.0,6665,33.95,1006.25
+S0260,Hyderabad,Bangalore,1395,Electric Truck,Battery,92,0.0,0.0,12225,26.81,929.53
+S0261,Mumbai,Pune,768,Electric Truck,Battery,64,0.0,0.0,6516,16.22,657.31
+S0262,Chennai,Ahmedabad,208,Rail,Diesel,95,20.08,53.81,11671,6.47,329.99
+S0263,Jaipur,Hyderabad,1896,Truck,CNG,83,470.13,940.26,10881,33.51,1340.39
+S0264,Hyderabad,Bangalore,1138,Air,Jet Fuel,70,690.01,1725.03,3568,4.92,1173.71
+S0265,Guwahati,Hyderabad,1889,Electric Truck,Battery,88,0.0,0.0,7031,33.67,1188.5
+S0266,Lucknow,Chennai,177,Electric Truck,Battery,90,0.0,0.0,8322,5.39,231.09
+S0267,Guwahati,Jaipur,1761,Electric Van,Battery,72,0.0,0.0,8873,38.4,1086.18
+S0268,Jaipur,Kolkata,1920,Air,Jet Fuel,96,1170.81,2927.02,8734,7.81,1819.17
+S0269,Lucknow,Ahmedabad,1978,Rail,Diesel,92,154.03,412.8,13291,26.99,1236.48
+S0270,Guwahati,Jaipur,833,Air,Jet Fuel,64,493.16,1232.9,9700,2.79,860.45
+S0271,Pune,Ahmedabad,1246,Electric Truck,Battery,86,0.0,0.0,4875,24.05,805.07
+S0272,Bangalore,Chennai,874,Truck,CNG,89,215.56,431.12,11535,17.4,708.04
+S0273,Pune,Lucknow,313,Rail,Electric,63,27.85,2.79,13785,7.29,210.46
+S0274,Guwahati,Mumbai,920,Truck,Diesel,93,229.8,615.86,12196,16.45,645.58
+S0275,Jaipur,Kolkata,1783,Air,Jet Fuel,63,1087.29,2718.22,11761,6.67,1653.73
+S0276,Delhi,Ahmedabad,627,Electric Truck,Battery,86,0.0,0.0,14056,14.39,432.8
+S0277,Kolkata,Chennai,335,Air,Jet Fuel,74,204.4,511.0,14268,2.39,347.93
+S0278,Hyderabad,Bangalore,1294,Air,Jet Fuel,92,781.79,1954.47,12718,5.95,1316.76
+S0279,Hyderabad,Guwahati,1441,Electric Truck,Battery,67,0.0,0.0,10563,27.45,964.62
+S0280,Ahmedabad,Lucknow,215,Air,Jet Fuel,90,124.74,311.85,6455,1.74,366.83
+S0281,Kolkata,Pune,1501,Air,Jet Fuel,68,913.31,2283.27,10178,5.95,1391.87
+S0282,Jaipur,Guwahati,264,Electric Van,Battery,61,0.0,0.0,6755,8.74,336.18
+S0283,Kolkata,Chennai,540,Air,Jet Fuel,89,312.87,782.17,8464,2.64,563.5
+S0284,Jaipur,Guwahati,196,Electric Van,Battery,73,0.0,0.0,12588,7.01,390.1
+S0285,Delhi,Jaipur,106,Electric Truck,Battery,78,0.0,0.0,11352,4.85,285.56
+S0286,Guwahati,Delhi,976,Truck,CNG,99,238.52,477.04,3223,17.51,752.25
+S0287,Guwahati,Bangalore,1188,Electric Van,Battery,67,0.0,0.0,4602,29.29,683.32
+S0288,Kolkata,Hyderabad,104,Electric Truck,Battery,66,0.0,0.0,5955,3.23,116.88
+S0289,Ahmedabad,Hyderabad,1044,Air,Jet Fuel,95,639.16,1597.9,8085,5.39,944.21
+S0290,Jaipur,Delhi,954,Air,Jet Fuel,79,580.03,1450.07,5091,5.04,878.33
+S0291,Hyderabad,Bangalore,154,Electric Truck,Battery,97,0.0,0.0,14745,6.84,229.76
+S0292,Chennai,Hyderabad,1141,Rail,Electric,99,95.0,9.5,13846,15.54,645.9
+S0293,Lucknow,Guwahati,1207,Electric Van,Battery,99,0.0,0.0,7365,28.93,681.99
+S0294,Jaipur,Ahmedabad,1242,Rail,Diesel,70,98.88,265.0,3280,18.29,767.68
+S0295,Lucknow,Guwahati,228,Air,Jet Fuel,68,120.74,301.85,10409,1.55,309.24
+S0296,Kolkata,Guwahati,1563,Rail,Electric,60,121.03,12.1,11602,21.28,1041.65
+S0297,Bangalore,Hyderabad,1947,Rail,Diesel,97,154.64,414.44,11963,27.16,1287.95
+S0298,Chennai,Delhi,858,Electric Van,Battery,75,0.0,0.0,7262,20.29,727.64
+S0299,Guwahati,Chennai,1924,Air,Jet Fuel,80,1164.06,2910.15,12674,6.61,1662.5
+S0300,Hyderabad,Delhi,1272,Electric Van,Battery,68,0.0,0.0,10142,30.33,757.27
+S0301,Ahmedabad,Kolkata,1537,Air,Jet Fuel,91,920.64,2301.6,3935,5.15,1374.68
+S0302,Ahmedabad,Jaipur,1339,Air,Jet Fuel,69,805.54,2013.85,6073,5.16,1170.77
+S0303,Pune,Jaipur,153,Electric Van,Battery,98,0.0,0.0,12860,7.64,188.72
+S0304,Guwahati,Hyderabad,773,Rail,Electric,87,57.06,5.71,10921,11.23,611.06
+S0305,Delhi,Lucknow,1600,Electric Truck,Battery,83,0.0,0.0,6458,27.75,861.48
+S0306,Guwahati,Ahmedabad,679,Truck,Diesel,61,160.01,428.83,4481,12.69,578.01
+S0307,Mumbai,Bangalore,896,Electric Van,Battery,79,0.0,0.0,9114,20.1,536.92
+S0308,Ahmedabad,Hyderabad,1267,Electric Truck,Battery,98,0.0,0.0,7612,23.71,883.56
+S0309,Delhi,Bangalore,137,Air,Jet Fuel,71,96.56,241.4,9145,0.84,197.22
+S0310,Hyderabad,Pune,1750,Rail,Electric,87,144.86,14.49,8128,24.48,979.25
+S0311,Lucknow,Kolkata,558,Truck,CNG,84,135.45,270.9,4934,10.78,560.66
+S0312,Bangalore,Hyderabad,606,Air,Jet Fuel,77,346.18,865.45,5385,2.14,567.72
+S0313,Chennai,Kolkata,541,Air,Jet Fuel,94,319.61,799.03,10102,2.55,640.94
+S0314,Bangalore,Hyderabad,937,Truck,Diesel,75,240.94,645.72,11645,17.14,825.47
+S0315,Ahmedabad,Pune,690,Air,Jet Fuel,65,403.13,1007.83,3137,2.52,647.56
+S0316,Ahmedabad,Jaipur,652,Truck,Diesel,64,168.42,451.37,12880,14.08,489.76
+S0317,Pune,Hyderabad,788,Truck,CNG,79,189.95,379.9,7202,17.11,597.84
+S0318,Jaipur,Bangalore,1003,Electric Van,Battery,67,0.0,0.0,9370,21.42,745.68
+S0319,Chennai,Hyderabad,1121,Truck,CNG,72,271.81,543.62,14335,22.87,914.75
+S0320,Hyderabad,Mumbai,192,Electric Truck,Battery,62,0.0,0.0,3996,5.64,146.08
+S0321,Guwahati,Delhi,1987,Truck,Diesel,83,503.01,1348.07,14501,38.1,1321.79
+S0322,Chennai,Pune,1543,Electric Van,Battery,100,0.0,0.0,12966,32.71,916.09
+S0323,Mumbai,Chennai,848,Electric Truck,Battery,79,0.0,0.0,5025,18.12,705.36
+S0324,Hyderabad,Delhi,426,Air,Jet Fuel,72,249.23,623.07,3243,2.3,428.27
+S0325,Mumbai,Hyderabad,317,Electric Van,Battery,98,0.0,0.0,4562,7.81,408.41
+S0326,Delhi,Bangalore,1339,Rail,Electric,81,110.74,11.07,3027,20.12,854.67
+S0327,Chennai,Jaipur,758,Rail,Diesel,60,61.03,163.56,13500,11.78,506.95
+S0328,Bangalore,Mumbai,1772,Rail,Electric,72,140.57,14.06,10013,24.82,986.66
+S0329,Hyderabad,Chennai,1510,Electric Truck,Battery,95,0.0,0.0,3458,30.12,910.85
+S0330,Ahmedabad,Mumbai,1871,Truck,Diesel,72,475.37,1273.99,5268,33.51,1451.74
+S0331,Hyderabad,Guwahati,746,Electric Truck,Battery,64,0.0,0.0,7558,15.72,499.61
+S0332,Pune,Hyderabad,371,Rail,Diesel,79,29.2,78.26,3386,7.55,492.65
+S0333,Hyderabad,Bangalore,799,Truck,CNG,76,207.39,414.78,12116,16.11,711.49
+S0334,Lucknow,Ahmedabad,665,Electric Van,Battery,80,0.0,0.0,4269,15.29,582.09
+S0335,Jaipur,Ahmedabad,1232,Rail,Electric,67,97.01,9.7,13504,17.09,727.26
+S0336,Hyderabad,Guwahati,687,Electric Van,Battery,66,0.0,0.0,9971,17.66,582.75
+S0337,Chennai,Mumbai,106,Rail,Diesel,80,12.37,33.15,9433,4.87,236.29
+S0338,Lucknow,Mumbai,757,Electric Van,Battery,94,0.0,0.0,7845,16.17,557.9
+S0339,Delhi,Bangalore,1235,Air,Jet Fuel,72,737.55,1843.88,5627,4.82,1166.14
+S0340,Lucknow,Chennai,1857,Electric Truck,Battery,60,0.0,0.0,13708,35.66,1167.3
+S0341,Jaipur,Guwahati,653,Rail,Diesel,100,53.6,143.65,3045,10.88,446.63
+S0342,Delhi,Pune,1163,Air,Jet Fuel,65,704.87,1762.17,3633,4.87,1085.27
+S0343,Guwahati,Bangalore,666,Air,Jet Fuel,77,391.47,978.68,3746,3.25,818.43
+S0344,Pune,Delhi,144,Electric Van,Battery,71,0.0,0.0,7801,8.45,283.4
+S0345,Lucknow,Guwahati,1295,Rail,Electric,98,101.76,10.18,13998,18.29,827.01
+S0346,Mumbai,Jaipur,940,Truck,CNG,97,228.97,457.94,8372,16.77,792.16
+S0347,Pune,Mumbai,890,Electric Van,Battery,100,0.0,0.0,8792,20.6,519.56
+S0348,Kolkata,Bangalore,1052,Truck,CNG,77,263.43,526.86,6015,22.13,716.75
+S0349,Lucknow,Ahmedabad,738,Truck,CNG,84,183.87,367.74,5189,13.32,571.17
+S0350,Pune,Delhi,939,Electric Truck,Battery,76,0.0,0.0,4779,17.59,751.3
+S0351,Hyderabad,Kolkata,1305,Air,Jet Fuel,73,782.71,1956.78,3434,5.66,1292.09
+S0352,Jaipur,Mumbai,592,Electric Truck,Battery,68,0.0,0.0,10059,14.71,366.37
+S0353,Kolkata,Pune,1779,Electric Van,Battery,99,0.0,0.0,13795,38.26,1123.95
+S0354,Pune,Guwahati,1857,Rail,Diesel,62,151.87,407.01,4689,24.54,1067.41
+S0355,Guwahati,Pune,918,Electric Van,Battery,93,0.0,0.0,6953,23.0,753.96
+S0356,Ahmedabad,Chennai,1972,Electric Truck,Battery,68,0.0,0.0,4999,36.99,1155.35
+S0357,Lucknow,Bangalore,1767,Truck,Diesel,91,440.05,1179.33,13789,30.98,1234.81
+S0358,Pune,Delhi,1574,Truck,CNG,79,390.19,780.38,6538,28.48,1049.53
+S0359,Guwahati,Jaipur,354,Air,Jet Fuel,84,222.56,556.4,5324,2.03,488.54
+S0360,Guwahati,Jaipur,712,Air,Jet Fuel,90,438.54,1096.35,3486,3.42,860.85
+S0361,Ahmedabad,Chennai,729,Air,Jet Fuel,77,436.28,1090.7,11621,3.48,818.35
+S0362,Pune,Hyderabad,1828,Electric Van,Battery,91,0.0,0.0,11190,42.1,983.24
+S0363,Bangalore,Lucknow,1823,Air,Jet Fuel,74,1099.79,2749.47,10191,7.99,1544.83
+S0364,Mumbai,Bangalore,813,Air,Jet Fuel,62,490.74,1226.85,6853,3.07,748.71
+S0365,Pune,Ahmedabad,1588,Truck,CNG,99,404.78,809.56,5636,30.94,1176.47
+S0366,Bangalore,Jaipur,844,Air,Jet Fuel,72,514.52,1286.3,4046,3.71,809.44
+S0367,Lucknow,Jaipur,1701,Rail,Diesel,67,131.18,351.56,12922,24.12,1055.09
+S0368,Ahmedabad,Jaipur,709,Electric Van,Battery,78,0.0,0.0,14420,17.09,639.41
+S0369,Chennai,Delhi,1764,Rail,Diesel,62,138.64,371.56,6272,23.4,1242.33
+S0370,Bangalore,Chennai,901,Electric Van,Battery,92,0.0,0.0,7747,22.63,558.88
+S0371,Jaipur,Guwahati,1639,Electric Truck,Battery,76,0.0,0.0,14883,28.44,1092.73
+S0372,Kolkata,Ahmedabad,548,Truck,CNG,72,145.06,290.12,3847,11.24,488.36
+S0373,Mumbai,Ahmedabad,494,Electric Van,Battery,61,0.0,0.0,3535,11.89,385.04
+S0374,Mumbai,Lucknow,920,Air,Jet Fuel,74,564.63,1411.58,4045,3.89,1014.66
+S0375,Jaipur,Lucknow,262,Truck,CNG,78,72.59,145.18,9140,9.36,377.15
+S0376,Jaipur,Pune,623,Rail,Diesel,86,54.69,146.57,5708,8.83,490.14
+S0377,Kolkata,Chennai,1441,Truck,Diesel,92,350.86,940.3,11318,27.02,1180.9
+S0378,Bangalore,Delhi,1028,Electric Truck,Battery,77,0.0,0.0,3717,18.2,727.83
+S0379,Mumbai,Chennai,1294,Electric Van,Battery,63,0.0,0.0,9634,31.13,905.98
+S0380,Ahmedabad,Lucknow,521,Electric Van,Battery,63,0.0,0.0,8469,12.84,532.72
+S0381,Chennai,Delhi,940,Rail,Electric,61,79.83,7.98,11509,15.2,715.7
+S0382,Jaipur,Guwahati,439,Electric Van,Battery,72,0.0,0.0,9618,9.96,448.03
+S0383,Bangalore,Delhi,1135,Truck,CNG,74,282.37,564.74,11819,22.77,960.71
+S0384,Jaipur,Guwahati,1217,Air,Jet Fuel,62,720.77,1801.92,3358,4.34,1248.77
+S0385,Hyderabad,Jaipur,108,Electric Van,Battery,96,0.0,0.0,11047,7.32,200.49
+S0386,Jaipur,Kolkata,1191,Electric Van,Battery,92,0.0,0.0,14758,25.47,736.92
+S0387,Bangalore,Hyderabad,1951,Electric Van,Battery,88,0.0,0.0,13124,42.54,1053.16
+S0388,Delhi,Mumbai,1449,Electric Van,Battery,74,0.0,0.0,4782,31.73,847.35
+S0389,Jaipur,Ahmedabad,1541,Air,Jet Fuel,88,906.23,2265.57,14209,6.27,1454.25
+S0390,Jaipur,Mumbai,1172,Electric Van,Battery,86,0.0,0.0,14087,28.1,768.02
+S0391,Delhi,Ahmedabad,477,Electric Truck,Battery,83,0.0,0.0,9850,9.55,301.23
+S0392,Lucknow,Delhi,413,Electric Van,Battery,96,0.0,0.0,4650,10.44,327.21
+S0393,Jaipur,Lucknow,560,Electric Truck,Battery,65,0.0,0.0,8828,12.18,523.02
+S0394,Jaipur,Lucknow,1859,Rail,Electric,68,147.84,14.78,12851,26.38,1122.91
+S0395,Guwahati,Hyderabad,1938,Air,Jet Fuel,81,1164.0,2910.0,8939,7.05,1726.39
+S0396,Guwahati,Ahmedabad,234,Rail,Diesel,86,15.56,41.7,8745,4.48,365.7
+S0397,Pune,Mumbai,1848,Truck,Diesel,65,459.21,1230.68,3700,33.52,1422.21
+S0398,Pune,Hyderabad,1126,Rail,Electric,75,92.82,9.28,5224,18.06,638.59
+S0399,Mumbai,Chennai,803,Rail,Electric,62,64.46,6.45,7877,12.56,524.54
+S0400,Chennai,Pune,1071,Air,Jet Fuel,67,654.99,1637.47,13028,5.2,938.6
+S0401,Lucknow,Kolkata,475,Air,Jet Fuel,68,284.39,710.97,4700,2.43,662.63
+S0402,Kolkata,Mumbai,1533,Air,Jet Fuel,97,904.48,2261.2,11990,6.12,1509.31
+S0403,Pune,Hyderabad,288,Rail,Diesel,73,26.91,72.12,10868,6.49,354.3
+S0404,Chennai,Mumbai,531,Electric Truck,Battery,60,0.0,0.0,4892,13.19,477.66
+S0405,Guwahati,Pune,1615,Electric Truck,Battery,92,0.0,0.0,10530,31.9,1074.3
+S0406,Lucknow,Chennai,1136,Truck,Diesel,79,292.93,785.05,5870,23.55,1011.36
+S0407,Lucknow,Bangalore,1345,Air,Jet Fuel,85,820.0,2050.0,12626,6.3,1246.68
+S0408,Delhi,Lucknow,1783,Rail,Diesel,86,143.56,384.74,13415,23.52,1164.6
+S0409,Ahmedabad,Delhi,1119,Electric Truck,Battery,97,0.0,0.0,5783,22.1,859.37
+S0410,Guwahati,Ahmedabad,1484,Air,Jet Fuel,97,895.32,2238.3,3454,5.31,1329.08
+S0411,Mumbai,Jaipur,314,Truck,CNG,65,80.96,161.92,5933,6.36,488.47
+S0412,Ahmedabad,Pune,1707,Truck,Diesel,76,433.11,1160.73,6607,29.46,1303.62
+S0413,Lucknow,Guwahati,866,Rail,Diesel,76,74.01,198.35,11117,13.48,707.65
+S0414,Jaipur,Guwahati,1487,Electric Van,Battery,68,0.0,0.0,13193,34.37,959.81
+S0415,Kolkata,Lucknow,1454,Rail,Diesel,78,116.02,310.93,12523,21.4,882.47
+S0416,Jaipur,Ahmedabad,1551,Electric Truck,Battery,74,0.0,0.0,3169,30.04,865.07
+S0417,Ahmedabad,Jaipur,498,Truck,Diesel,66,131.39,352.13,3079,11.48,409.58
+S0418,Hyderabad,Jaipur,1519,Electric Van,Battery,86,0.0,0.0,6461,36.03,1008.02
+S0419,Pune,Hyderabad,1961,Rail,Electric,60,152.14,15.21,7580,26.55,1058.49
+S0420,Bangalore,Ahmedabad,1585,Air,Jet Fuel,70,942.14,2355.35,6262,6.84,1489.06
+S0421,Guwahati,Pune,1129,Electric Van,Battery,76,0.0,0.0,7236,23.76,727.13
+S0422,Guwahati,Delhi,1269,Truck,Diesel,91,323.17,866.1,4200,26.08,881.9
+S0423,Chennai,Mumbai,250,Electric Truck,Battery,83,0.0,0.0,13064,8.94,254.83
+S0424,Hyderabad,Kolkata,1492,Air,Jet Fuel,69,899.66,2249.15,5018,5.57,1356.2
+S0425,Kolkata,Mumbai,1231,Electric Truck,Battery,100,0.0,0.0,10590,25.32,717.17
+S0426,Jaipur,Kolkata,739,Rail,Diesel,90,60.15,161.2,5086,11.69,466.24
+S0427,Bangalore,Ahmedabad,1814,Rail,Electric,79,144.45,14.45,12671,24.54,1040.4
+S0428,Jaipur,Guwahati,182,Electric Van,Battery,62,0.0,0.0,7844,7.06,197.92
+S0429,Mumbai,Guwahati,121,Rail,Electric,98,11.05,1.11,11455,4.38,333.96
+S0430,Chennai,Delhi,1828,Electric Truck,Battery,68,0.0,0.0,10156,31.94,1119.08
+S0431,Guwahati,Lucknow,1493,Truck,Diesel,91,377.33,1011.24,9885,29.88,1140.47
+S0432,Chennai,Pune,1110,Electric Van,Battery,78,0.0,0.0,5644,27.27,719.92
+S0433,Lucknow,Chennai,1613,Truck,Diesel,87,401.61,1076.31,13435,31.59,1102.21
+S0434,Chennai,Pune,742,Electric Truck,Battery,93,0.0,0.0,12152,15.25,480.5
+S0435,Chennai,Mumbai,1649,Truck,Diesel,82,405.89,1087.79,12080,28.76,1305.17
+S0436,Pune,Chennai,1131,Truck,CNG,88,281.62,563.24,7203,21.23,976.43
+S0437,Guwahati,Hyderabad,903,Electric Van,Battery,78,0.0,0.0,4598,21.6,741.88
+S0438,Delhi,Hyderabad,977,Rail,Electric,85,75.76,7.58,8909,14.07,692.35
+S0439,Lucknow,Delhi,1325,Truck,CNG,73,322.29,644.58,10368,24.09,1036.05
+S0440,Pune,Chennai,1251,Air,Jet Fuel,62,742.94,1857.35,8695,4.72,1191.1
+S0441,Hyderabad,Jaipur,1337,Electric Truck,Battery,97,0.0,0.0,5018,27.19,769.17
+S0442,Kolkata,Chennai,399,Electric Van,Battery,83,0.0,0.0,14307,12.17,278.11
+S0443,Lucknow,Hyderabad,540,Electric Van,Battery,66,0.0,0.0,13930,14.64,465.31
+S0444,Jaipur,Ahmedabad,1401,Air,Jet Fuel,94,856.26,2140.65,8677,6.66,1393.3
+S0445,Kolkata,Lucknow,1900,Electric Van,Battery,80,0.0,0.0,6059,42.25,1184.19
+S0446,Delhi,Bangalore,330,Truck,Diesel,65,88.9,238.25,10756,10.16,288.51
+S0447,Chennai,Hyderabad,550,Rail,Electric,78,44.89,4.49,12204,7.89,397.14
+S0448,Kolkata,Jaipur,1822,Electric Van,Battery,94,0.0,0.0,9732,40.34,1113.3
+S0449,Kolkata,Mumbai,907,Rail,Electric,90,74.26,7.43,7562,13.68,535.18
+S0450,Jaipur,Guwahati,1695,Truck,CNG,99,429.17,858.34,10726,30.52,1309.14
+S0451,Delhi,Kolkata,523,Electric Truck,Battery,65,0.0,0.0,12165,12.48,344.42
+S0452,Guwahati,Bangalore,635,Rail,Diesel,78,52.74,141.34,3119,9.54,467.37
+S0453,Mumbai,Bangalore,1366,Electric Van,Battery,85,0.0,0.0,14664,32.19,871.13
+S0454,Ahmedabad,Kolkata,628,Electric Van,Battery,66,0.0,0.0,13255,14.22,557.32
+S0455,Hyderabad,Pune,431,Rail,Electric,100,36.24,3.62,12083,7.69,306.8
+S0456,Mumbai,Pune,1071,Electric Truck,Battery,88,0.0,0.0,3975,22.18,780.62
+S0457,Delhi,Lucknow,757,Electric Truck,Battery,65,0.0,0.0,14312,15.84,624.73
+S0458,Pune,Ahmedabad,1606,Electric Van,Battery,87,0.0,0.0,5987,34.06,1039.25
+S0459,Chennai,Lucknow,853,Electric Truck,Battery,82,0.0,0.0,8929,17.53,501.86
+S0460,Lucknow,Ahmedabad,221,Electric Truck,Battery,60,0.0,0.0,7093,7.78,197.4
+S0461,Pune,Mumbai,1812,Truck,CNG,74,444.05,888.1,5964,33.44,1302.66
+S0462,Hyderabad,Kolkata,287,Truck,CNG,68,73.43,146.86,11092,7.76,386.63
+S0463,Guwahati,Lucknow,136,Electric Truck,Battery,74,0.0,0.0,11162,6.24,330.11
+S0464,Bangalore,Hyderabad,737,Electric Van,Battery,72,0.0,0.0,8031,17.44,449.83
+S0465,Ahmedabad,Guwahati,542,Rail,Diesel,91,42.16,112.99,5446,9.15,365.34
+S0466,Ahmedabad,Pune,1707,Truck,CNG,70,425.23,850.46,11682,30.43,1323.08
+S0467,Guwahati,Kolkata,1913,Rail,Electric,64,154.07,15.41,5866,26.45,1096.13
+S0468,Jaipur,Ahmedabad,1951,Electric Truck,Battery,77,0.0,0.0,7141,36.71,1114.83
+S0469,Mumbai,Delhi,1885,Rail,Electric,69,147.12,14.71,12461,26.92,1153.82
+S0470,Bangalore,Kolkata,180,Truck,CNG,93,48.99,97.98,9548,5.3,186.08
+S0471,Delhi,Bangalore,1258,Electric Truck,Battery,83,0.0,0.0,3089,22.87,926.48
+S0472,Lucknow,Mumbai,218,Electric Truck,Battery,65,0.0,0.0,13340,4.75,347.22
+S0473,Mumbai,Ahmedabad,1157,Truck,CNG,71,298.91,597.82,5267,23.11,763.77
+S0474,Delhi,Kolkata,127,Truck,Diesel,76,24.44,65.5,11385,7.09,156.08
+S0475,Lucknow,Pune,300,Electric Truck,Battery,78,0.0,0.0,7393,8.75,334.25
+S0476,Bangalore,Mumbai,584,Air,Jet Fuel,60,353.99,884.98,11817,3.12,611.05
+S0477,Lucknow,Chennai,772,Air,Jet Fuel,77,448.29,1120.73,9568,2.76,667.43
+S0478,Mumbai,Delhi,1622,Electric Van,Battery,75,0.0,0.0,9998,35.62,976.73
+S0479,Jaipur,Bangalore,431,Air,Jet Fuel,85,245.81,614.52,6776,2.05,590.15
+S0480,Ahmedabad,Kolkata,964,Rail,Diesel,85,76.27,204.4,4868,15.33,675.11
+S0481,Lucknow,Chennai,1421,Air,Jet Fuel,98,832.61,2081.53,8474,4.78,1181.08
+S0482,Chennai,Ahmedabad,151,Air,Jet Fuel,90,77.51,193.78,13473,0.64,360.65
+S0483,Guwahati,Jaipur,1572,Rail,Diesel,61,122.39,328.01,12545,21.23,1033.73
+S0484,Jaipur,Pune,885,Rail,Diesel,70,66.62,178.54,10039,13.08,589.6
+S0485,Guwahati,Ahmedabad,660,Electric Truck,Battery,70,0.0,0.0,13776,12.96,413.58
+S0486,Jaipur,Delhi,892,Electric Van,Battery,96,0.0,0.0,4989,20.77,636.06
+S0487,Pune,Ahmedabad,1423,Rail,Electric,81,118.17,11.82,7411,20.1,856.71
+S0488,Pune,Lucknow,1517,Electric Van,Battery,78,0.0,0.0,11981,35.65,996.43
+S0489,Chennai,Bangalore,1951,Electric Van,Battery,78,0.0,0.0,10520,42.85,1164.98
+S0490,Guwahati,Hyderabad,1549,Rail,Electric,93,122.39,12.24,5263,23.06,829.27
+S0491,Lucknow,Pune,1017,Electric Truck,Battery,99,0.0,0.0,11512,20.35,637.25
+S0492,Kolkata,Pune,1351,Electric Van,Battery,66,0.0,0.0,12683,29.19,936.04
+S0493,Ahmedabad,Kolkata,1950,Truck,Diesel,88,487.36,1306.12,4364,33.98,1410.29
+S0494,Mumbai,Lucknow,847,Air,Jet Fuel,90,508.41,1271.03,6061,3.94,882.76
+S0495,Ahmedabad,Delhi,741,Electric Truck,Battery,65,0.0,0.0,6846,15.26,495.02
+S0496,Pune,Hyderabad,103,Electric Truck,Battery,84,0.0,0.0,13800,3.88,111.92
+S0497,Guwahati,Bangalore,1849,Truck,Diesel,83,463.04,1240.95,12018,32.1,1225.92
+S0498,Bangalore,Delhi,1859,Electric Truck,Battery,79,0.0,0.0,12881,33.06,1056.8
+S0499,Hyderabad,Chennai,1724,Electric Truck,Battery,76,0.0,0.0,6708,32.97,951.89
+S0500,Bangalore,Hyderabad,1555,Air,Jet Fuel,66,927.36,2318.4,3818,7.13,1428.6
